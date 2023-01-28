@@ -20,7 +20,7 @@ public class City {
 
         String city=mp.get(zipCode);
         if(city==null)
-            throw new Exception("City not found.".toUpperCase());
+            throw new CityNotFoundException();
 
         return "CITY FOUND: " + city;
         
