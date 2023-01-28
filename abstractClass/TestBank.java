@@ -15,7 +15,6 @@ public class TestBank {
         	Bank ob3 = new BankC();
         	ob3.setBalance(200);
         	System.out.println(ob3.getBalance());
-
 	}
 
 }
